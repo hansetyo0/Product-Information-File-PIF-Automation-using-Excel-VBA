@@ -1,5 +1,3 @@
-# PIF Automation using Excel VBA
-
 ## Overview
 This project is an Excel VBA-based tool designed to automate the generation of Product Information Files (PIF) using a predefined Word template.
 
@@ -38,13 +36,13 @@ The workflow is fairly straightforward:
 ## How to use
 1. Open `PIF_Template.xlsx`  
 2. Fill in the required data in the relevant sheets 
-3. Enable the **Developer** tab in Excel (if not already enabled)  
-4. Open the VBA Editor (Go to **Developer → Visual Basic**)
+3. Enable the Developer tab in Excel (if not already enabled)  
+4. Open the VBA Editor (Go to Developer → Visual Basic)
 5. Import the VBA module and Save 
 6. Run the macro (e.g. `Generate_PIFs`)  
 7. Wait for the process to complete  
 8. Check the generated files in the `Output` folder  
-**Make sure the Word template is located in the correct directory before running the macro.**
+Make sure the Word template is located in the correct directory before running the macro.
 
 ## Limitations
 - Relies on consistent template structure (placeholders must match)  
